@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelly Gogohounga Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nelly Gogohounga</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experiences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="image-slice">
+                <!-- Add images here -->
+            </div>
+            <div class="title">
+                <h2>Port</h2>
+                <h2>Folio</h2>
+            </div>
+        </section>
+        <section class="quote">
+            <blockquote>
+                <p>Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.</p>
+                <cite>– Paul Rand</cite>
+            </blockquote>
+            <p>Welcome in my World<br><span>Blending Simplicity with Elegance</span></p>
+        </section>
+    </main>
+</body>
+</html>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+    background: #000;
+}
+
+.image-slice {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-slice img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.title {
+    z-index: 2;
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.quote {
+    background: #d3c4ad;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote blockquote {
+    font-style: italic;
+    margin: 0 auto 10px;
+    max-width: 600px;
+}
+
+.quote p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.quote span {
+    font-style: italic;
+}
+  </style>
+
