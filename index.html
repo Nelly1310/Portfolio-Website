@@ -5,7 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nelly Gogohounga Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+  
+  <style>
+body {
+    margin: 0;
+    font-family: Monotype Corsiva;
+    color: white;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    position: relative;
+    background: black;
+}
+
+.image-slice {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-slice img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.title {
+    z-index: 2;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.quote {
+    background: #d3c4ad;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote blockquote {
+    font-style: italic;
+    margin: 0 auto 10px;
+    max-width: 600px;
+    height: 800px;
+}
+
+.quote p {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+</style>
 </head>
+  
 <body>
     <header>
         <h1>Nelly Gogohounga</h1>
@@ -40,97 +135,4 @@
 </body>
 </html>
 
-<style>
-body {
-    margin: 0;
-    font-family: Monotype Corsiva;
-    color: #fff;
-    background-color: #000;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 30px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 800px;
-    position: relative;
-    background: black;
-}
-
-.image-slice {
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    width: 60%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.image-slice img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.title {
-    z-index: 2;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-}
-
-.title h2 {
-    margin: 0;
-    font-size: 100px;
-    font-weight: bold;
-}
-
-.quote {
-    background: #d3c4ad;
-    color: #000;
-    text-align: center;
-    padding: 20px;
-}
-
-.quote blockquote {
-    font-style: italic;
-    margin: 0 auto 10px;
-    max-width: 600px;
-    height: 800px;
-}
-
-.quote p {
-    font-size: 50px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-
-  </style>
 
