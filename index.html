@@ -45,37 +45,15 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 1000px;
     position: relative;
     background: black;
-}
-
-.image-slice {
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    width: 60%;
-    height: 100%;
-    overflow: hidden;
 }
 
 .image-slice img {
     width: auto;
     height: auto;
-    object-fit: fill;
-}
-
-.title {
-    z-index: 2;
-    text-align: center;
-    font-size: 20px;
-    color: white;
-}
-
-.title h2 {
-    margin: 0;
-    font-size: 100px;
-    font-weight: bold;
+    object-fit: cover;
 }
 
 .quote {
@@ -83,17 +61,30 @@ nav ul li a {
     color: black;
     text-align: center;
     padding: 20px;
+      width: auto;
+
 }
 
 .quote blockquote {
     font-style: italic;
     margin: 0 auto 10px;
-    max-width: 600px;
+    width: auto;
     height: 800px;
 }
 
+.quote h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+    
+.quote h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+    
 .quote p {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
 }
@@ -117,20 +108,16 @@ nav ul li a {
     <main>
         <section class="hero">
             <div class="image-slice">
-                <!-- Add images here -->
               <img src="Copie de Nelly Gogohounga-4.png" alt="Nelly holding a camera">
-            </div>
-            <div class="title">
-                <h2>Port</h2>
-                <h2>Folio</h2>
             </div>
         </section>
         <section class="quote">
             <blockquote>
-                <p>Design can be art. <br> Design can be aesthetics.<br> Design is so simple,<br> that's why it is so complicated.</p>
-                ---------------------------------- <br> Paul Rand
+                <p>Design can be art. <br> Design can be aesthetics.<br> Design is so simple,<br> that's why it is so complicated.<br>
+                ------------------------------------------------- <br>Paul Rand</p>
             </blockquote>
-            <p>Welcome in my World<br><span>Blending Simplicity with Elegance</span></p>
+            <h2>Welcome in my World</h2><br>
+          <h3>Blending Simplicity with Elegance</h3>
         </section>
     </main>
 </body>
